@@ -13,12 +13,13 @@
 .navbar {
     height: 100px;
     width: 100%;
-    background-color: rgb(221, 217, 217);
+    background-color: #6f3f37;
     display: flex;
     align-items: center;
     border: 1px solid gray;
     position: absolute;
     top: 0;
+    color: white;
 }
 
 .logo img {
@@ -46,7 +47,7 @@
 
 .nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 18px;
 }
 
@@ -69,7 +70,7 @@
     top: 100%;
     left: 0;
     text-align: center;
-    background-color: white;
+    background-color: #6f3f37;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1;
     padding: 10px;
@@ -98,6 +99,7 @@
     padding: 5px;
 }
 .footer{
+    background-color: #6f3f37;
     height: 350px;
     width: 100%;
     border: black solid 1px;
@@ -114,7 +116,7 @@
 }
 .footer li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .footer li a:hover{
     color: orangered;
@@ -169,3 +171,198 @@
 .home p:hover{
     color: blueviolet;
 }
+.home1{
+    height: 1200px;
+    width: 100%;
+}
+.home1 .page2{
+    float: left;
+    margin: 25px;
+    height: 650px;
+    width: 600px;
+    text-align: center;
+}
+.home1 .page3{
+    margin: 25px;
+    float: left;
+    height: 650px;
+    width: 600px;
+    text-align: center;
+}
+.home1 .page4{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 100px;
+}
+.home1 .page2 button{
+    padding: 10px ;
+    border-radius: 10px;
+    background-color: #6f3f37;
+    width: 80px;
+}
+.home1 .page3 button{
+    padding: 10px ;
+    border-radius: 10px;
+    background-color: #6f3f37;
+    width: 80px;
+}
+.home1 .page4 button{
+    padding: 10px ;
+    border-radius: 10px;
+    background-color: #6f3f37;
+    width: 80px;
+}
+.home1 .page4 h1{
+    color: blue;
+}
+.home1 .page4 p{
+    color: white;
+}
+.home1 h2{
+    font-size: 50px;
+}
+.home1 p{
+    font-size: 23px;
+}
+.trending{
+    height: 1100px;
+    width: 100%;
+    
+    margin-top: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    background-color: peru;
+    justify-content: center;
+    color: white;
+}
+.trending1{
+    height: 600px;
+    width: 790px;
+    border: gray 0.5px solid;
+    padding-top: 20px;
+}
+.trending h5{
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.trending a{
+    color: black;
+    font-weight: 600;
+    padding-left: 10px;
+    
+
+}
+.trending2{
+    height: 600px;
+    width: 490px;
+    border: gray 0.5px solid;
+
+    padding-top: 20px;
+
+}.trending3, .trending4, .trending5{
+    height: 400px;
+    width: 420px;
+    border: gray 0.5px solid;
+
+    padding-top: 20px;
+    }
+    #one {
+        color: white;
+        text-decoration: none;
+        border: 1px solid;
+        padding: 5px 10px;
+        background-color: blueviolet;
+     }
+     .news{
+        height: 130px;
+        width: 100%;
+        padding-left: 20px;
+        padding-top: 10px;
+        }
+
+     .newsA{
+        height: 800px;
+        width: 100%;
+        border: 1px solid;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+     }
+     .news1, .news2, .news3, .news4{
+        height: 350px;
+        width:620px;
+        border: 1px solid;
+     }
+     .button{
+        margin-top: 100px;
+        margin-left: 630px;
+     }
+     .button button{
+        height: 50px;
+        width: 150px;
+        background-color:blueviolet;
+        cursor: pointer;
+        border-radius: 10px;
+     }
+     .button button:hover{
+        height: 50px;
+        width: 150px;
+        background-color: whitesmoke;
+        cursor: pointer;
+        border-radius: 10px;
+     }
+     .button button a{
+        text-decoration: none;
+     }
+     .reviews{
+        height: 800px;
+        width: 100%;
+        background-color: peru;
+        margin-top: 100px;
+        text-align: center;
+     }
+     .reviews .rev{
+        float: left;
+        margin: 10px;
+        background-image: url(images/review1.avif);
+        background-size: 100%;
+        border-radius: 50%;
+        height: 400px;
+        width: 400px;
+        margin-top: 70px;
+        
+     }
+     .reviews .rev1{
+        float: left;
+        margin: 10px;
+        background-image: url(images/trump.jpeg);
+        background-size: 100%;
+        border-radius: 50%;
+        height: 400px;
+        width: 400px;
+        margin-top: 70px;
+     }
+     .reviews .rev2{
+        background-image: url(images/modi.jpeg);
+        background-size: 100%;
+        height: 400px;
+        width: 400px;
+        float: left;
+        margin: 10px;
+        border-radius: 50%;
+        margin-top: 70px;
+     }
+     .reviews button a{
+        text-decoration: none;
+     }
+     .reviews h1{
+        padding-top: 400px;
+     }
+
