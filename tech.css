@@ -41,7 +41,6 @@
 }
 
 .nav ul li {
-    
     position: relative;
 }
 
@@ -99,6 +98,7 @@
     padding: 5px;
 }
 
+
 .footer{
     background-color: #6f3f37;
     height: 350px;
@@ -131,6 +131,9 @@
     background-size: cover;
     margin-bottom: 100px;
     cursor: pointer;
+}
+.zoom-image:hover{
+    transform: scale(1.1);
 }
 .page{
     float: left;
@@ -192,7 +195,7 @@
     text-align: center;
 }
 .home1 .page4{
-    background-image: url(images/bg.jpg);
+    background-image: url(images/g2.jpg);
     background-size: cover;
     height: 500px;
     width: 100%;
@@ -204,26 +207,30 @@
 .home1 .page2 button{
     padding: 10px ;
     border-radius: 10px;
-    background-color: #6f3f37;
-    width: 80px;
+    background-color: blueviolet;
+    width: 100px;
 }
 .home1 .page3 button{
     padding: 10px ;
     border-radius: 10px;
-    background-color: #6f3f37;
-    width: 80px;
+    background-color: blueviolet;
+    width: 100px;
+}
+.home1 .page4{
+    margin-top: 100px;
 }
 .home1 .page4 button{
     padding: 10px ;
     border-radius: 10px;
-    background-color: #6f3f37;
-    width: 80px;
+    background-color: blueviolet;
+    width: 100px;
+    height: 40px;
 }
 .home1 .page4 h1{
-    color: blue;
+    color: black;
 }
 .home1 .page4 p{
-    color: white;
+    color: black;
 }
 .home1 h2{
     font-size: 50px;
@@ -240,15 +247,16 @@
     display: flex;
     flex-wrap: wrap;
     column-gap: 10px;
-    background-color: rgb(189, 165, 142);
+    /* background-image: url(images/g6.jpg);
+    background-size: cover; */
     justify-content: center;
-    color: white;
+    color: black;
 }
 .trending1{
     height: 600px;
     width: 790px;
-    border: gray 0.5px solid;
     padding-top: 20px;
+    border: 1px gray solid;
 }
 .trending h5{
     padding-left: 10px;
@@ -258,7 +266,6 @@
     color: black;
     font-weight: 600;
     padding-left: 10px;
-    
 
 }
 .trending2{
@@ -326,7 +333,6 @@
      .reviews{
         height: 800px;
         width: 100%;
-        background-color: peru;
         margin-top: 100px;
         text-align: center;
      }
@@ -360,6 +366,9 @@
         margin: 10px;
         border-radius: 50%;
         margin-top: 70px;
+     }
+     .reviews i{
+        color: orange;
      }
      .reviews button a{
         text-decoration: none;
@@ -411,4 +420,26 @@
     float: left;
     text-align: center;
     padding-top: 190px;
+}
+.scroll-image{
+    transform: translateX(-100%);
+    animation: slideIn 3s forwards;
+}
+.home .page{
+    transform: translateX(-100%);
+    animation: slideIn 3s forwards;
+}
+@keyframes slideIn{
+    to{
+        transform: translateX(0);
+    }
+}
+.home .page1{
+    transform: translateX(-100%);
+    animation: slideIn 3s forwards;
+}
+.home1 .page4{
+
+transform: translateX(-100%);
+    animation: slideIn 3s forwards;
 }
