@@ -4,50 +4,64 @@
     box-sizing: border-box;
 }
 
+
+
 .container {
-    height: 100vh;
+    height: auto;
     width: 100%;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid black;
     font-family: 'poppins', sans-serif;
 }
 
+
 .navbar {
-    height: 100px;
+    background-image: url(images/footer2.jpg);
+    height: 120px;
     width: 100%;
-    background-color: #6f3f37;
+    background-color: rgb(221, 217, 217);
     display: flex;
     align-items: center;
-    border: 1px solid gray;
+    border: 1px solid rgb(24, 23, 23);
     position: absolute;
     top: 0;
-    color: white;
+    animation: fadeInDown 1s ease-in-out;
 }
 
-.logo img {
-    height: 100px;
-    width: 280px;
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
+
+
 
 .nav {
-    margin-left: auto;
+    margin-left: 200px;
     margin-right: 20px;
-    font-size: 30px;
 }
 
 .nav ul {
     list-style: none;
     display: flex;
     column-gap: 50px;
-
 }
 
 .nav ul li {
     position: relative;
 }
-
 .nav ul li a {
+    font-size: 30px;
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 22px;
+    transition: color 0.3s ease-in-out;
 }
 
 .nav ul li a:hover {
@@ -69,25 +83,31 @@
     top: 100%;
     left: 0;
     text-align: center;
-    background-color: #6f3f37;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url(images/footer1.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.8);
     z-index: 1;
     padding: 10px;
-     width: 150px; 
+    width: 150px;
 }
 
 .nav ul li:hover .sub-menu {
     display: block;
+    animation: fadeInUp 0. ease-in-out;
 }
+
+
 
 .sub-menu li {
     margin-top: 10px;
-    border-bottom: gray 0.5px solid;
+    border-bottom: rgb(247, 242, 242) 0.5px solid;
 }
 
 .sub-menu li a {
     color: black;
     font-size: 16px;
+    transition: color 0.3s ease-in-out;
 }
 
 .sub-menu li a:hover {
@@ -95,12 +115,15 @@
 }
 
 .nav ul li input[type="text"] {
-    padding: 5px;
+    padding: 7px;
+    position: absolute;
+    border-radius: 10px;
+    border: none;
 }
-
-
 .footer{
-    background-color: #6f3f37;
+    background-image: url(images/footer2.jpg);
+    background-size: cover;
+    background-position: center;
     height: 350px;
     width: 100%;
     border: black solid 1px;
@@ -109,25 +132,32 @@
     display:flex;
     column-gap: 250px;
     padding-top: 50px;
+    color: white;
+
 }
 .footer li{
     list-style: none;
     margin-top: 22px;
-    font-size: 20px;
+    font-size: 22px;
 }
 .footer li a{
     text-decoration: none;
-    color: white;
+    color:white;
+    
 }
 .footer li a:hover{
     color: orangered;
 }
-
+.icons i{
+    margin-top: 10px;
+padding: 5px;
+    
+}
 .home{
     height:850px;
     width: 100%;
     color: white;
-    background-image: url(images/ai.jpg);
+    background-image: url(images/teambio.jpg);
     background-size: cover;
     margin-bottom: 100px;
     cursor: pointer;
@@ -421,25 +451,17 @@
     text-align: center;
     padding-top: 190px;
 }
-.scroll-image{
-    transform: translateX(-100%);
-    animation: slideIn 3s forwards;
-}
-.home .page{
-    transform: translateX(-100%);
-    animation: slideIn 3s forwards;
-}
 @keyframes slideIn{
     to{
         transform: translateX(0);
     }
 }
-.home .page1{
+
+.home .page{
     transform: translateX(-100%);
     animation: slideIn 3s forwards;
 }
 .home1 .page4{
-
-transform: translateX(-100%);
+    transform: translateX(-100%);
     animation: slideIn 3s forwards;
 }
