@@ -9,15 +9,12 @@
 .container {
     height: auto;
     width: 100%;
-    overflow: hidden;
-    position: relative;
-    border: 1px solid black;
-    font-family: 'poppins', sans-serif;
+    font-family: sans-serif;
 }
 
 
 .navbar {
-    background-image: url(images/footer2.jpg);
+    background-image: url(images/navbar\ bg.jpeg);
     height: 120px;
     width: 100%;
     background-color: rgb(221, 217, 217);
@@ -56,6 +53,10 @@
 .nav ul li {
     position: relative;
 }
+
+
+
+
 .nav ul li a {
     font-size: 30px;
     text-decoration: none;
@@ -83,7 +84,7 @@
     top: 100%;
     left: 0;
     text-align: center;
-    background-image: url(images/footer1.jpg);
+    background-image: url(images/navbar\ bg.jpeg);
     background-position: center;
     background-size: cover;
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.8);
@@ -120,8 +121,10 @@
     border-radius: 10px;
     border: none;
 }
+
+
 .footer{
-    background-image: url(images/footer2.jpg);
+    background-image: url(images/navbar\ bg.jpeg);
     background-size: cover;
     background-position: center;
     height: 350px;
@@ -153,14 +156,17 @@
 padding: 5px;
     
 }
+
+
 .home{
     height:850px;
     width: 100%;
     color: white;
-    background-image: url(images/teambio.jpg);
+    background-image: url(images/home\ bg.jpg);
     background-size: cover;
     margin-bottom: 100px;
     cursor: pointer;
+    font-size: 20px;
 }
 .zoom-image:hover{
     transform: scale(1.1);
@@ -186,25 +192,24 @@ padding: 5px;
 .page button{
     height: 40px;
     width: 150px;
-    background-color: #fff;
+    background-color: #6f3f37;
     cursor: pointer;
     border-color: white;
-    padding: 10px 0;
-    border-radius: 20px;
-    color: #001720;
+    border-radius: 6px;
+    color:white;
 }
 .page button:hover{
     background-color: blueviolet;
-    color: white
+    color: white;
 }
 .page button a{
     text-decoration: none;
 }
 .home h1:hover{
-    color: blueviolet;
+    color: green;
 }
 .home p:hover{
-    color: blueviolet;
+    color: green;
 }
 .home1{
     height: 1200px;
@@ -268,6 +273,7 @@ padding: 5px;
 .home1 p{
     font-size: 23px;
 }
+
 .trending{
     height: 1100px;
     width: 100%;
@@ -277,8 +283,6 @@ padding: 5px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 10px;
-    /* background-image: url(images/g6.jpg);
-    background-size: cover; */
     justify-content: center;
     color: black;
 }
@@ -360,6 +364,8 @@ padding: 5px;
      .button button a{
         text-decoration: none;
      }
+
+
      .reviews{
         height: 800px;
         width: 100%;
@@ -407,61 +413,58 @@ padding: 5px;
         padding-top: 400px;
      }
 
-.tutorial{
-    height: 800px;
-    width: 100%;
-    border: 1px #6f3f37 solid;
-}
-.tutorial h1{
-    padding-top: 50px;
-    padding-left: 500px;
-}
-.tutorial button{
-    height: 50px;
-    width: 150px;
-    background-color: blueviolet;
-    margin-top: 190px;
-    margin-left: 600px;
-    cursor: pointer;
-    border-radius: 9px;
-}
-.tutorial button:hover{
-    height: 50px;
-    width: 150px;
-    background-color: peru;
-    margin-top: 190px;
-    margin-left: 600px;
-    cursor: pointer;
-    border-radius: 9px;
-}
-.tutorial button a{
-    color: white;
-    text-decoration: none;
-}
-.tutorial .page1{
-    height: 500px;
-    width: 600px;
-    float: left;
-    text-align: center;
-}
-.tutorial .page2{
-    height: 500px;
-    width: 600px;
-    float: left;
-    text-align: center;
-    padding-top: 190px;
-}
-@keyframes slideIn{
-    to{
-        transform: translateX(0);
-    }
-}
 
-.home .page{
-    transform: translateX(-100%);
-    animation: slideIn 3s forwards;
-}
-.home1 .page4{
-    transform: translateX(-100%);
-    animation: slideIn 3s forwards;
-}
+     .tutorial{
+        height: 800px;
+        width: 100%;
+        border: 1px #6f3f37 solid;
+    }
+    .tutorial h1{
+        padding-top: 50px;
+        padding-left: 500px;
+    }
+    .tutorial button{
+        height: 50px;
+        width: 150px;
+        background-color: blueviolet;
+        margin-top: 190px;
+        margin-left: 600px;
+        cursor: pointer;
+        border-radius: 9px;
+    }
+    .tutorial button:hover{
+        height: 50px;
+        width: 150px;
+        background-color: peru;
+        margin-top: 190px;
+        margin-left: 600px;
+        cursor: pointer;
+        border-radius: 9px;
+    }
+    .tutorial button a{
+        color: white;
+        text-decoration: none;
+    }
+    .tutorial .page1{
+        height: 500px;
+        width: 600px;
+        float: left;
+        text-align: center;
+    }
+    .tutorial .page2{
+        height: 500px;
+        width: 600px;
+        float: left;
+        text-align: center;
+        padding-top: 190px;
+    }
+
+    
+    
+    
+    
+
+
+
+
+

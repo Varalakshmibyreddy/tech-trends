@@ -17,7 +17,7 @@
 
 
 .navbar {
-    background-image: url(images/footer2.jpg);
+    background-image: url(images/navbar\ bg.jpeg);
     height: 120px;
     width: 100%;
     background-color: rgb(221, 217, 217);
@@ -87,7 +87,7 @@
     top: 100%;
     left: 0;
     text-align: center;
-    background-image: url(images/footer1.jpg);
+    background-image: url(images/navbar\ bg.jpeg);
     background-position: center;
     background-size: cover;
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.8);
@@ -389,7 +389,7 @@
 
 
 .footer{
-    background-image: url(images/footer2.jpg);
+    background-image: url(images/navbar\ bg.jpeg);
     background-size: cover;
     background-position: center;
     height: 350px;
